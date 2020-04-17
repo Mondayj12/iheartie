@@ -1,0 +1,27 @@
+/*
+		Author:					Samuel Murillo			  	
+		Date:             		4/15/2020	  
+        Last revised:
+		Assignment:           Semester Project
+		Purpose:              Styling the "About Us" page
+*/
+
+body {
+	background-color: rgb(140,140,140);
+	color: black;
+	font-family: arial;
+	
+}
+
+header.title {
+				background-color: rgba(50,50,50,.8);		/*the background will be a dark gray and partially transparent*/
+				color: #eee;								/*font color will be light gray*/
+				width: 100%;
+				margin: 0;
+				padding: 10px 0px;
+				text-align: center;
+}
+
+div.content {
+	padding: 10px 0px;
+}
