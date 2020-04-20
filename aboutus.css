@@ -9,17 +9,23 @@
 body {
 	background-color: rgb(140,140,140);
 	color: black;
-	font-family: arial;
+	font-family: sans-serif;
 	
 }
-
+img.floatRight {
+    display: block;
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
 header.title {
-				background-color: rgba(50,50,50,.8);		/*the background will be a dark gray and partially transparent*/
-				color: #eee;								/*font color will be light gray*/
-				width: 100%;
-				margin: 0;
-				padding: 10px 0px;
-				text-align: center;
+    padding: 25px 0;
+    margin: auto;
+    height: 190px;
+    background-color: #3A3A3A;
+    color: white;
+    text-align: center;
 }
 
 div.content {
@@ -42,7 +48,22 @@ nav {
 }
 h1 {
     width: 75%;
-    margin: auto;
-    color: white;     
+    margin: 0;
+    color: white;
 }
-
+img.floatMiddle {
+    display: block;
+    height: 225px;
+    width: 300px;
+    margin: 10px auto 20px;
+    float: right;
+}
+footer {
+    clear: both;
+    line-height: 2em;
+    margin: auto;
+    background-color: #8E8E8E;
+    color: white;
+    width: 900px;
+    
+}

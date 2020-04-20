@@ -16,23 +16,35 @@ header {
     background-color: #3A3A3A;
     color: white;
 }
-div {
-    
+img.floatRight {
+    display: block;
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin: 0 15px;
 }
-h1,h2 {
+img.floatLeft {
+    display: block;
+    float: left;
+    height: 140px;
+    width: 150px;
+    margin: 0 15px;
+}
+h1,h2,h3 {
     text-align: center;
     width: 75%;
     margin: auto;
 }
-img.floatRight {
+img.floatMiddle {
     display: block;
-    float: right;
-    height: 150px;
-    margin: 0 15px;    
+    height: 550px;
+    width: 550px;
+    margin: 10px auto 20px;    
 }
 nav {
     height: 2em;
     padding: 0;
+    color: white;
     background-color: #000000;
     border-bottom: 1px solid #8E8E8E;
     margin-top: 1px solid #8E8E8E;   
@@ -48,7 +60,9 @@ nav {
 footer {
     clear: both;
     line-height: 2em;
-    margin: 0 auto;
+    margin: auto;
     background-color: #8E8E8E;
     color: white;
+    width: 900px;
+    
 }
